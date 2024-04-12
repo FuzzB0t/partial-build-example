@@ -14,9 +14,11 @@ options.salt = "usd"
 
 [provision.oracle_manager]
 source = "oracle-manager"
+options.salt = "0x3330363734343032330000000000000000000000000000000000000000000000-oracle"
+options.owner = "0x6E1613B5c68B4Cf2A58400D8019a97849A678139"
 
-[provision.chainlink_]
-source = "oracle-manager"
+[provision.chainlink]
+source = "chainlink"
 
 [contract.Greeter]
 artifact = "Greeter"
